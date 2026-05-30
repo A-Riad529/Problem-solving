@@ -7,7 +7,7 @@ char check;
 cin>>check;
 int i = static_cast<int>(check);
 char upCase = (char)toupper(check);
-if('0' < i && i < '9'){
+if('0' < i && i <= '9' || i == '0'){
 
     cout<<"IS DIGIT";
 }
